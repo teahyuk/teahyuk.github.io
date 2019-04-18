@@ -6,14 +6,15 @@ categories : [JAVA]
 tags : [JAVA, Synchronize, Syntex]
 ---
 
-# java에관한 잡설 - synchronize
+> java synchronize 에대한 개인적인 고찰입니다.
 
-"기록용 입니다."
+<br/>
+<br/>
 
 #### 오늘은 ConcurrentHashMap의 동작에 대해서 개인적으로 파다가 synchronize 에 기본 동작에 대해 정리한다.
+<br/>
 
-
-1. synchronize 는 C#에서는 lock과 같음.
+1. synchronize 는 C#에서는 lock과 같음. 
 2. 메소드에 거는 synchronize 는 해당 메소드를 가진 인스턴스를 기준으로 lock이 걸림.
     - 메소드 여러군데 synchronize걸면 다같이 lock걸림
     - new해서 새로운 인스턴스가되면 같은메소드라도 lock안걸림
@@ -31,4 +32,3 @@ x++;
 equals
 x = new Integer(x+1);
 ~~~    
-
