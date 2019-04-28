@@ -1,3 +1,11 @@
+---
+layout: post
+title: singleton 정리
+feature-img: "assets/img/sample_feature_img.png"
+categories : [JAVA]
+tags : [JAVA, Singleton]
+---
+
 > 요즘 자바로는 간단하게 싱글톤으로 구현시켜주는 Enum 클래스가 존재한다.
 
 싱글톤에 대하여 가장 최근에 들어 본 것은 EffectiveJava 3판에 나온 Enum을 활용한 방법이다.
