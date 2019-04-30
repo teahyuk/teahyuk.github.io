@@ -1,5 +1,6 @@
 ---
 layout: post
+comments : true
 title: 일일커밋 캠페인
 feature-img: "assets/img/sample_feature_img.png"
 categories : [IdeaLog]

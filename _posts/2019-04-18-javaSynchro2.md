@@ -1,5 +1,6 @@
 ---
 layout: post
+comments : true
 title: java에 관한 잡설 - lockSplit vs lockStriping
 feature-img: "assets/img/sample_feature_img.png"
 categories : [JAVA]

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments : true
 title: java에관한 잡설 - synchronize
 feature-img: "assets/img/sample_feature_img.png"
 categories : [JAVA]

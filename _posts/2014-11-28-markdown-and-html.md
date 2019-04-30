@@ -1,5 +1,6 @@
 ---
 layout: post
+comments : true
 title: Markdown and HTML
 ---
 
