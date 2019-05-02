@@ -10,5 +10,10 @@
     {% if site.theme_settings.disqus_shortname %}
     <script id="dsq-count-scr" src="//teahyuk.disqus.com/count.js" async></script>
     {% endif %}
+
+    <!-- Analytics -->
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
   </body>
 </html>
