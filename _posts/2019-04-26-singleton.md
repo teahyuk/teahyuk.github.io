@@ -1,5 +1,6 @@
 ---
 layout: post
+comments : true
 title: singleton 정리
 feature-img: "assets/img/sample_feature_img.png"
 categories : [JAVA]

@@ -21,10 +21,17 @@ layout: default
         </h1>
         <p class="meta">
           {{ post.date | date: "%B %-d, %Y" }}
+          {% if site.theme_settings.disqus_shortname %}
+            {% if post.comments %}
+              &bull; <a href="{{ post.url | relative_url }}#disqus_thread">Post a comment</a>
+            {% endif %}
+          {% endif %}
         </p>
       </header>
       <div class="excerpt">
         {{ post.excerpt }}
+      </div>
+      <div class="excerpt-button">
         <a class="button" href="{{ post.url | relative_url }}">
           {{ site.theme_settings.str_continue_reading }}
         </a>
