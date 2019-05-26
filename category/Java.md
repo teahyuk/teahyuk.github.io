@@ -1,5 +1,5 @@
 ---
 layout: category
 title: JAVA
-feature-img: "assets/img/jeju.png"
+feature-img: "assets/img/jeju.jpg"
 ---
