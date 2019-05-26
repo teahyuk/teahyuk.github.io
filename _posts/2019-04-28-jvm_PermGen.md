@@ -1,6 +1,5 @@
 ---
 layout: post
-comments : true
 title: jvm에 대하여 - PermGen에 대해
 feature-img: "assets/img/sample_feature_img.png"
 categories : [JAVA]
