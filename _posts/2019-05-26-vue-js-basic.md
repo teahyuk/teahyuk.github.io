@@ -149,7 +149,7 @@ var app2 = new Vue({
   - 간단하게 쓸떈 안해도 됨
 - MVVM지원을 위한 양방향 바인딩 개념 사용.
 
-## 생명주기?
+### 생명주기
 
 ![Vue.js Life Cycle]({{site.url}}/assets/img/vue-lifecycle.png )
 
