@@ -15,7 +15,7 @@ tags : [DB, Recursive, MariaDB]
 
 단. 제한 해제가 가능한지는 모르겠다.
 
-윈도우즈는 2016년 win10에서 그동안 제한 걸려있떤 260 길이의 경로 제한을 풀어버렸다.
+윈도우즈는 2016년 win10에서 그동안 제한 걸려있던 260 길이의 경로 제한을 풀어버렸다.
 > https://mspoweruser.com/ntfs-260-character-windows-10/
 
 <br/>
