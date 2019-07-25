@@ -166,3 +166,53 @@ tags : [Elastic Stack, Elastic Search]
   - 필드 선택
 - `default-operator`
   - 검색어 띄어쓰기 합침조건
+
+## Term Suggestion API
+
+- 단어 제안 api
+
+#### 용도
+
+- 오타 수정이나, 완성문장을 위해 사용됨.
+
+### 종류
+
+- Term Suggest API: 추천 단어 제안
+- Completion Suggest API: 자동완성 제안
+- Phrase Suggest API: 추천 문장 제안
+- Context Suggest API: 추천 문맥 제안
+
+### 한글
+
+- 한글은 결합문자라서 다른 알고리즘과 방식이 필요.
+  - ex) ㄱ(U+3131) + ㅏ(U+314F) = 가(U+AC00)
+
+  ## [search_as_you_type](https://www.elastic.co/blog/elasticsearch-7-2-0-released)
+
+### [search_as_you_type](https://www.elastic.co/blog/elasticsearch-7-2-0-released)
+
+- 7.2 버전에서 새로 추가됨
+- Shingle Token Filter 를 이용하여 기존 필드 이외에 3개의 필드를 더 추가함
+    - my_field._2gram
+    - my_field._3gram
+    - my_field._index_prefix
+    #### [Shingle Token Filter](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-shingle-tokenfilter.html)
+        the sentence "please divide this sentence into shingles" might be tokenized into shingles 
+        "please divide", "divide this", "this sentence", "sentence into", and "into shingles".  
+- 추가된 필드를 이용하여 prefix로 검색 할 수 있고, 중간에서 있는 값도 검색이 가능함
+- 공식 문서의 예제에서는 'multi_match' 와 'match_bool_prefix'를 조합하여 사용
+    ### [match_bool_prefix](https://www.elastic.co/guide/en/elasticsearch/reference/7.2/query-dsl-match-bool-prefix-query.html)
+    - if message is "**quick brown f**", then query is        
+        ```json
+        {
+            "query": {
+                "bool" : {
+                    "should": [
+                        { "term": { "message": "quick" }},
+                        { "term": { "message": "brown" }},
+                        { "prefix": { "message": "f"}}
+                    ]
+                }
+            }
+        }
+        ```
