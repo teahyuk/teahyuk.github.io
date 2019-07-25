@@ -1,10 +1,10 @@
 ---
 layout: post
 comments: true
-title: elastic-search
+title: Elastic Search 용어
 feature-img: "assets/img/jeju.jpg"
-categories : [IdeaLog]
-tags : [language, framwork, msa, soa]
+categories : [Services]
+tags : [Elastic Stack, Elastic Search]
 ---
 
 - 엘라스틱 서치에 대한 용어정리.
