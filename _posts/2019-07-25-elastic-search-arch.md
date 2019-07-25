@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  Elastic search 데이터 구조
+title: Elastic search 데이터 구조
 feature-img: "assets/img/jeju.jpg"
 categories : [Services]
 tags : [Elastic Stack, Elastic Search]
