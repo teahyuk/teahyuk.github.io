@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Vuejs 입문
 feature-img: "assets/img/jeju-bottom.jpg"
-categories : [Javascript]
+categories : [IdeaLog]
 tags : [html, frontend, vuejs]
 ---
 
@@ -163,7 +163,7 @@ var app2 = new Vue({
         Send word to allies for help!
     </button>
     <pre>
-        {{ $data }}
+        {{ "{{ $data "}}}}
     </pre>
 </div>
 </body>
