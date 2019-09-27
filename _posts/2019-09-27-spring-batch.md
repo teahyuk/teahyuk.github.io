@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: 우아한 스프링 배치 테크 세미나
+title: 우형 스프링 배치 세미나
 feature-img: "assets/img/jeju.jpg"
 categories : [IdeaLog]
 tags : [Spring, Batch]
