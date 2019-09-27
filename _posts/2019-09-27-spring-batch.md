@@ -4,7 +4,7 @@ comments: true
 title: 우아한 스프링 배치 테크 세미나
 feature-img: "assets/img/jeju.jpg"
 categories : [IdeaLog]
-tags : [Spring, Batch]]
+tags : [Spring, Batch]
 ---
 
 ## spring batch 기본
