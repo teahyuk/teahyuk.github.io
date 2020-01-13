@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: 서버리스 환경에서의 docker 선능 극복 사례
+title: 서버리스 환경에서의 docker 성능 극복 사례
 feature-img: "assets/img/jeju.jpg"
 categories : [IdeaLog]
 tags : [Docker, Serverless, MSA]
