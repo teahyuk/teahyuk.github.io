@@ -16,7 +16,7 @@ theme_settings:
   # Header and footer text
   header_text: >
      <p>Journaling DevLog</p>
-     <p align="right">Java, Netty, RxJava, C#, Unity, Rx.net</p>
+     <p align="right">Server Backend Engineering</p>
 
   header_text_feature_image: assets/header_image.jpg
   footer_text: >
