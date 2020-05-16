@@ -63,7 +63,7 @@ public class EventData {
         if(!eventLog.containsKey(ID_KEY)){
             throw new IllegalArgumentException("eventLog must have UID Key");
         }
-        this.eventLog = eventLog;
+        this.eventLog = new HashMap<>(eventLog);
     }
 
     public String getId(){
