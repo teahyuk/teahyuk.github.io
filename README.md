@@ -32,6 +32,7 @@ Notice the avatar variable is left intentionally blank.
 Below is a summary of the configuration options in Type Theme.
 
 ### Site configuration
+
 The most common configurations, included here for guidance, are:
 
 Jekyll website *without* a subpath (such as a GitHub Pages website for a given username):
@@ -67,8 +68,7 @@ Change these variables in `_config.yml`:
 
 ### Header and footer text
 
-Change these variables in `_config.yml`:
-
+Change these variables in `_config.yml`
 
 | Variable | Example | Description | Optional |
 |---------------------------|------------------------------|-------------------------------------------------------------------------|----------|
@@ -80,18 +80,16 @@ Change these variables in `_config.yml`:
 
 Add your username on selected websites in the icon section of the `_config.yml` file to display the site's icon from [Font Awesome](https://fortawesome.github.io/Font-Awesome/) in the header navigation. All icon variables should be your username enclosed in quotes (e.g. "username"), except for the following variables:
 
-
 | Variable | Example | Description | Optional |
 |----------------|-------------------------------------------------|--------------------------------------------------------|----------|
 | rss | true | Takes boolean value (true/false) to show RSS feed icon | Yes |
 | email_address | type@example.com | Email address | Yes |
-| linkedin | https://www.linkedin.com/in/FirstLast | Full URL to profile on LinkedIn | Yes |
-| stack_exchange | https://stackoverflow.com/users/0000/first-last | Full URL to profile on Stack Exchange | Yes |
+| linkedin | <https://www.linkedin.com/in/FirstLast> | Full URL to profile on LinkedIn | Yes |
+| stack_exchange | <https://stackoverflow.com/users/0000/first-last> | Full URL to profile on Stack Exchange | Yes |
 
 ### Scripts
 
 Change these variables in `_config.yml`:
-
 
 | Variable | Example | Description | Optional |
 |------------------|--------------|-------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -111,7 +109,6 @@ English text used in the theme (such as the "continue reading" label) has been g
 
 ![A selection of colours set in Type Theme by modifying the CSS](https://cloud.githubusercontent.com/assets/816965/5142488/130869a6-71d7-11e4-8a38-a69ec1673436.png)
 
-
 | Variable | Example | Description | Optional |
 |--------------|----------------------------|--------------------------------------|--------------------------------------------------------------|
 | google_fonts | "Playfair+Display:400,700\ | PT+Sans:400,700,700italic,400italic" | [Google Fonts](https://www.google.com/fonts) to load for use |
@@ -129,9 +126,11 @@ $font-family-headings: 'Playfair Display', Helvetica, Arial, sans-serif;
 Mozilla's [ColorPicker](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool) is a helpful tool to get your preferred colours in hexadecimal or RGBA form for use in `_variables.scss`.
 
 ## Posts and pages in Type Theme
+
 Please refer to the [Jekyll docs for writing posts](https://jekyllrb.com/docs/posts/). Non-standard features are documented below.
 
 ### Math typesetting
+
 Wrap math expressions with `$$` signs in your posts and make sure you have set the `katex` variable in `_config.yml` to `true` for math typesetting.
 
 For inline math typesetting, type your math expression on the *same line* as your content. For example:
@@ -209,6 +208,7 @@ The search feature can be activated in the `_config.yml` file by changing its va
 Once activated, the search bar will appear in the header. This feature uses [Lunr](https://lunrjs.com/) and searches through the title, tags and content of your posts.
 
 ### Subtitles
+
 A subtitle can be displayed below your title on permalink post pages.
 
 To enable this feature, add `subtitle` to your post metadata.
@@ -224,4 +224,5 @@ subtitle: "This is a subtitle"
 ```
 
 ## License
+
 [The MIT License (MIT)](https://github.com/rohanchandra/type-theme/blob/master/LICENSE)
