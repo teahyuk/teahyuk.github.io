@@ -7,10 +7,10 @@ categories : [EffectiveJava]
 tags : [effectiveJava, JAVA]
 ---
 
-## 복구 할 수 있는 예외는 검사 예외를 복구 불가능한 예외는 비검사 예외(RuntimeException | Error)를 사용하라
+## 복구 할 수 있는 예외는 검사 예외를 복구 불가능한 예외는 비검사 예외(RuntimeException \| Error)를 사용하라
 
 >
-호출자에서 그대로 복구해서 사용 가능할 꺼같으면 검사 예외다 (throws, Extends Exception &!(RuntimeException | Error))
+호출자에서 그대로 복구해서 사용 가능할 꺼같으면 검사 예외다 (throws, Extends Exception &!(RuntimeException \| Error))
 
 ### throws로 검사 예외를 만들어내는 경우는 api호출자가 복구 가능한 경우에만 만들자
 
