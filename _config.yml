@@ -2,7 +2,7 @@ remote_theme : rohanchandra/type-theme
 
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://teahyuk.github.io/"
+url: "https://teahyuk.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
