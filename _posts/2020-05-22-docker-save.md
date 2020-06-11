@@ -9,7 +9,7 @@ tags : [Docker]
 
 ## Docker 이미지 폐쇄망 이동을 위한 tar save 및 load 방법
 
-> Docker를 사용하다보면 폐쇄망 또는 registry없이 이동 하기 위해 파일로 이동을 해야 할 때가 필요하다
+> Docker 를 사용하다 보면 폐쇄망 또는 registry 없이 이동 하기 위해 파일로 이동을 해야 할 때가 필요하다
 
 ### Docker Save
 
@@ -21,7 +21,7 @@ sudo docker save image:tag > image.tar
 sudo docker save image:tag -o image.tar
 ```
 
-이렇게하면 tar파일로 저장이 되고, 해당 파일을 옮기고자 하는 노드로 넘겨서 load하면 된다.
+이렇게 하면 tar 파일로 저장이 되고, 해당 파일을 옮기 고자 하는 노드로 넘겨서 load 하면 된다.
 
 ### Docker load
 
