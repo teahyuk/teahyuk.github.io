@@ -86,3 +86,6 @@ $RECYCLE.BIN/
 *.msp
 *.lnk
 teahyuk.github.io.code-workspace
+
+### intellij ###
+.idea
