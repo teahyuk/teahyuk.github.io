@@ -38,7 +38,7 @@ tags : [git, commit, daily]
 
 ### 지금은 요모냥 이지만
 
- ![텅텅빈 커밋 그래프]({{site.url}}/assets/img/commitGraphEmpty.png )
+ ![텅텅빈 커밋 그래프]({{site.url}}/assets/img/commitGraphEmpty.png)
 
 ### 앞으로 이렇게되길...
 

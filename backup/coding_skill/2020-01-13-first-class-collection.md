@@ -1,4 +1,3 @@
----
 comments: true
 title: 자바 일급 컬렉션
 feature-img: "assets/img/jeju.jpg"
