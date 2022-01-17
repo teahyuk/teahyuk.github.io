@@ -1,86 +1,37 @@
-remote_theme : rohanchandra/type-theme
+title: bri.ghten's dev note
+lang: ko-KR
+description: Just another jekyll theme
+author: teahyuk
 
-# SITE CONFIGURATION
-baseurl: ""
-url: "https://teahyuk.github.io"
+edit: false
+logo: false
+disqus: teahyuk
 
-# THEME-SPECIFIC CONFIGURATION
-theme_settings:
-  # Meta
-  title: Enjoy Dev
-  avatar: assets/img/avatar.png
-  favicon: assets/favicon.ico
-  gravatar: c18976efa87c8b832dc66785206752f9 # Email MD5 hash
-  description: "Developer Journaling" # used by search engines
+copyright: 
+  revision: false
 
-  # Header and footer text
-  header_text: >
-     <p>Journaling DevLog</p>
-     <p align="right">Server Backend Engineering</p>
+addons:
+  - github
+  - i18n
+  - gems
+  - analytics
 
-  header_text_feature_image: assets/header_image.jpg
-  footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+theme: null # disable pages default theme
 
-  # Icons
-  rss: false
-  email_address: "jtaeh57@gmail.com" # Full email address, e.g. "sam@example.com"
-  behance:
-  bitbucket:
-  dribbble:
-  facebook: teahyeok.jeong
-  flickr:
-  gitlab:
-  github: "teahyuk"
-  google_plus:
-  instagram: jungtaehyeok
-  linkedin: "https://www.linkedin.com/in/%ED%83%9C%ED%98%81-%EC%A0%95-39305a143/" # Full URL
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  # Full URL
-  steam:
-  tumblr: 
-  twitter: "twitter"
-  wordpress:
-  youtube:
+# use front matter sort
+readme_index:
+  with_frontmatter: true
 
-  # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname: "teahyuk"
-  katex: true # Enable if using math markup
-  search: false # Enable the search feature
-
-  # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next_post: "Next post"
-  str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
-  str_javascript_required_disqus: "Please enable JavaScript to view comments."
-  str_search_no_results: "No results found."
-
-  # Colours, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
-
-  # Post navigation
-  post_navigation: true
-
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
-
-# BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge
 sass:
-  sass_dir: _sass
-  style: :compressed
-plugins: [jekyll-paginate]
+  style: compressed
+
 exclude:
+  - Makefile
   - Gemfile
   - Gemfile.lock
+  - deps.sh
+  - CODE_OF_CONDUCT.md
+  - LICENSE
+  - requirements.txt
+  - jekyll-rtd-theme.gemspec
+  - JekyllServe.sh
