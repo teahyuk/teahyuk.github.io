@@ -164,7 +164,7 @@ Small images should be shown at their actual size.
 
 Large images should always scale down and fit in the content container.
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Branching](https://upload.wikimedia.org/wikipedia/commons/e/ed/Octicons-git-branch.svg){: width="10" height="10"}
 
 ```
 This is the final element on the page and there should be no margin below this.
